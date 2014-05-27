@@ -1,4 +1,5 @@
 requires "Mojo::Base" => "0";
+requires "Mojo::Util" => "0";
 
 on 'test' => sub {
   requires "Mojolicious" => "0";

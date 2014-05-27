@@ -1,6 +1,6 @@
 # NAME
 
-Market::Plugin::Vendor - Market::Plugin::Vendor is ...
+Market::Plugin::Vendor - vendor plugin for 2market
 
 # VERSION
 

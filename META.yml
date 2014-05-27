@@ -1,5 +1,5 @@
 ---
-abstract: 'Market::Plugin::Vendor is ...'
+abstract: 'vendor plugin for 2market'
 author:
   - 'Adam Stokes <adamjs@cpan.org>'
 build_requires:
@@ -20,4 +20,5 @@ meta-spec:
 name: Market-Plugin-Vendor
 requires:
   Mojo::Base: '0'
+  Mojo::Util: '0'
 version: '0.001'

@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Market::Plugin::Vendor is ...",
+  "ABSTRACT" => "vendor plugin for 2market",
   "AUTHOR" => "Adam Stokes <adamjs\@cpan.org>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -20,7 +20,8 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Market::Plugin::Vendor",
   "PREREQ_PM" => {
-    "Mojo::Base" => 0
+    "Mojo::Base" => 0,
+    "Mojo::Util" => 0
   },
   "TEST_REQUIRES" => {
     "Mojolicious" => 0,
@@ -39,6 +40,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Mojo::Base" => 0,
+  "Mojo::Util" => 0,
   "Mojolicious" => 0,
   "Pod::Elemental::Transformer::List" => 0,
   "Pod::Weaver::Section::WarrantyDisclaimer" => 0,
